@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#card{
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    border-width: 5px;
+    border-color: rgba(160, 156, 156, 0.336);
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+}
+
+#card .header{
+    background-color: rgb(40, 26, 168);
+    border-style: solid;
+    border-color: rgb(40, 26, 168);
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    width: 805px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+#card .info{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    font-size: large;
+    position: relative;
+    height: 300px;
+    top: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#name{
+    position: relative;
+    top: 15px;
+}
+
+#card .pfp{
+    font-size: 100px;
+    background-color: white ;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    padding: 10px;
+    margin: 20px;
+    position: fixed;
+    top:70px;
+}
+
+#card .edit{
+    font-size: large;
+    position: relative;
+    bottom: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
